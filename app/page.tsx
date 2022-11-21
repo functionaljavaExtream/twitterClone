@@ -1,6 +1,7 @@
 "use client";
 import { Button, Grid, Stack } from "@mui/material";
 import SidebarLayout from "./sidebar/sidebarLayout";
+import FeedLayout from "./feed/feedlayout";
 export default function Home() {
   return (
     <div>
@@ -8,8 +9,9 @@ export default function Home() {
         {/* side bar */}
         <SidebarLayout />
         {/* feed */}
+        <FeedLayout />
         {/* widget */}
-
+        {/* modal */}
       </main>
     </div>
 
