@@ -1,4 +1,5 @@
 import {SparklesIcon} from "@heroicons/react/24/outline";
+import Input from "./input";
 
 const FeedLayout = () => {
     return (
@@ -8,6 +9,9 @@ const FeedLayout = () => {
             <div className="hoverEffect flex items-center justify-center px-0 ml-auto w-9 h-9">
                 <SparklesIcon className="h-5"/>
             </div>
+        </div>
+        <div>
+            <Input />
         </div>
       </div>
     );

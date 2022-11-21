@@ -26,7 +26,7 @@ export default function SidebarLayout() {
         <button className="bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">Tweet</button>
         {/** Mini-profile */}
         <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start mt-auto">
-          <img width={"50"} height={"50"} src='/user_image_default.png' className="h-10 2-10 rounded-full xl:mr-2"/>
+          <img width={"50"} height={"50"} src='/user_image_default.png' className="h-10 w-10 rounded-full xl:mr-2"/>
           <div className="leading-5 hidden xl:inline">
               <h4 className="font-bold">Kim</h4>
               <p className="text-gray-500">@code</p>
