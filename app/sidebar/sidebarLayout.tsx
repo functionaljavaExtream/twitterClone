@@ -23,7 +23,7 @@ export default function SidebarLayout() {
             <SidebarMenu Icon={EllipsisHorizontalCircleIcon} text={"More"} />
           </div>
         {/** Button */}
-        <button className="bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">Tweet</button>
+        <button className="border-0 bg-blue-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline cursor-pointer">Tweet</button>
         {/** Mini-profile */}
         <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start mt-auto">
           <img width={"50"} height={"50"} src='/user_image_default.png' className="h-10 w-10 rounded-full xl:mr-2"/>
