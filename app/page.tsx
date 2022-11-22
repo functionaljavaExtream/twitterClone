@@ -2,6 +2,7 @@
 import { Button, Grid, Stack } from "@mui/material";
 import SidebarLayout from "./sidebar/sidebarLayout";
 import FeedLayout from "./feed/feedlayout";
+import Widgets from "./widget/widgets";
 export default function Home() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Home() {
         {/* feed */}
         <FeedLayout />
         {/* widget */}
+        <Widgets />
         {/* modal */}
       </main>
     </div>
