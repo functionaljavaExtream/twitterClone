@@ -1,7 +1,7 @@
 import {SparklesIcon} from "@heroicons/react/24/outline";
 import Input from "./input";
 import Post from "./post";
-import UserImg from"../user_image_default.png"
+
 const FeedLayout = () => {
     const posts = [
         {

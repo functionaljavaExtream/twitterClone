@@ -6,7 +6,7 @@ import { truncate } from "fs";
 
 export default function SidebarLayout() {
     return (
-      <div className="hidden sm:flex flex-col p-2 xl:items-start fixed">
+      <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
         {/** Twitter logo */}
           <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
             <Image alt= {"hello"} width={"50"} height={"50"} src={"https://help.twitter.com/content/dam/help-twitter/brand/logo.png"}></Image>
